@@ -17,6 +17,8 @@
     <vertx.version>3.5.0</vertx.version>
     <vertx-maven-plugin.version>1.0.13</vertx-maven-plugin.version>
     <vertx.verticle>io.openshift.booster.HttpApplication</vertx.verticle>
+    <fabric8.build.strategy>docker</fabric8.build.strategy>
+    <fabric8.mode>kubernetes</fabric8.mode>
   </properties>
 
   <dependencyManagement>
